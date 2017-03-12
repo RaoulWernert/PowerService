@@ -1,0 +1,59 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ener="http://EnergyConsumption/">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <ener:Calculate>
+         <!--Optional:-->
+         <arg0>1</arg0>
+         <!--Optional:-->
+         <arg1>50</arg1>
+      </ener:Calculate>
+   </soapenv:Body>
+</soapenv:Envelope>
+
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ener="http://EnergyConsumption/">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <ener:Calculate>
+         <!--Optional:-->
+         <arg0>1</arg0>
+         <!--Optional:-->
+         <arg1>25</arg1>
+      </ener:Calculate>
+   </soapenv:Body>
+</soapenv:Envelope>
+
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ener="http://EnergyConsumption/">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <ener:Calculate>
+         <!--Optional:-->
+         <arg0>2</arg0>
+         <!--Optional:-->
+         <arg1>3</arg1>
+      </ener:Calculate>
+   </soapenv:Body>
+</soapenv:Envelope>
+
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ener="http://EnergyConsumption/">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <ener:Calculate>
+         <!--Optional:-->
+         <arg0>2</arg0>
+         <!--Optional:-->
+         <arg1>10</arg1>
+      </ener:Calculate>
+   </soapenv:Body>
+</soapenv:Envelope>
+
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ener="http://EnergyConsumption/">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <ener:Calculate>
+         <!--Optional:-->
+         <arg0>2</arg0>
+         <!--Optional:-->
+         <arg1>40</arg1>
+      </ener:Calculate>
+   </soapenv:Body>
+</soapenv:Envelope>

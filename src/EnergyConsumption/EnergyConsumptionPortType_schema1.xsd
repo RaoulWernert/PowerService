@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<xs:schema version="1.0" targetNamespace="http://EnergyConsumption/" xmlns:tns="http://EnergyConsumption/" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+  <xs:element name="Calculate" type="tns:Calculate"/>
+
+  <xs:element name="CalculateResponse" type="tns:CalculateResponse"/>
+
+  <xs:complexType name="Calculate">
+    <xs:sequence>
+      <xs:element name="arg0" type="xs:string" minOccurs="0"/>
+      <xs:element name="arg1" type="xs:string" minOccurs="0"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="CalculateResponse">
+    <xs:sequence>
+      <xs:element name="return" type="xs:string" minOccurs="0"/>
+    </xs:sequence>
+  </xs:complexType>
+</xs:schema>
+
